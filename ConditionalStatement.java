@@ -54,8 +54,8 @@ public class ConditionalStatement {
             default:
                 System.out.println("Invalid day");
         }
-         age = 10;
-String status = (age >= 18) ? "Adult" : "Minor";
-System.out.println("You are a " + status);
+        age = 10;
+        String status = (age >= 18) ? "Adult" : "Minor";
+        System.out.println("You are a " + status);
     }
 }
